@@ -1,19 +1,19 @@
-var joursdelasemaine = String(prompt('choisissez un jour'));
+var Age = Number(prompt("Quel est votre âge ?"));
 
-switch (joursdelasemaine) {
-	case 'Lundi':
-		alert('Lundi des patates');
+switch (Age) {
+	case 18:
+		alert("Bravo ! Vous êtes majeur !");
 		break;
 
-	case 'Mardi':
-		alert('Mardi des patates');
+	case 42:
+		alert("c'est la réponse universelle");
 		break;
 
-	case 'Mercredi':
-		alert('Mercredi des patates aussi');
+	case 100:
+		alert("Incroyable vous êtes centenaire !");
 		break;
 
 	default:
-		alert('boh surement des patates');
+		alert("Oh vous avez " +Age+ " ans" );
 		break;
 }
